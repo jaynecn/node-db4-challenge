@@ -1,9 +1,9 @@
-// const db = require('../data/db-config');
+const db = require('../data/db-config');
 
-// module.exports = {
-//   // find
-// }
+module.exports = {
+  find
+}
 
-// // function find() {
-// //   return db('recipes')
-// // }
+function find() {
+  return db('recipes')
+}
